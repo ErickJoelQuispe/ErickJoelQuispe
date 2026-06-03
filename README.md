@@ -60,6 +60,6 @@
 
   ## GitHub Stats                                                                                                                                                                                            
    
-  ![](https://github-readme-streak-stats.herokuapp.com/?user=ErickJ10X&theme=radical&hide_border=true)                                                                                                       
+  ![](https://github-readme-streak-stats.herokuapp.com/?user=ErickJoelQuispeX&theme=radical&hide_border=true)                                                                                                       
                                                                   
-  ![](https://github-readme-stats.vercel.app/api/top-langs/?username=ErickJ10X&theme=radical&hide_border=true&include_all_commits=true&count_private=true&layout=compact)
+  ![](https://github-readme-stats.vercel.app/api/top-langs/?username=ErickJoelQuispeX&theme=radical&hide_border=true&include_all_commits=true&count_private=true&layout=compact)
