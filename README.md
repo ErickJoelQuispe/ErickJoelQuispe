@@ -1,58 +1,47 @@
-<h1 align="center">Erick Joel Quispe Luna</h1>                                                                                                                                                             
-  <h3 align="center">Fullstack Developer · Backend Focus · Granada, España</h3>
-                                                                                                                                                                                                             
-  <p align="center">                                                                                                                                                                                         
-    <a href="https://www.linkedin.com/in/erick-joel-quispe/">                                                                                                                                                
-      <img src="https://skillicons.dev/icons?i=linkedin" />                                                                                                                                                  
-    </a>                                                                                                                                                                                                     
-    <a href="mailto:erickjo10x@gmail.com">
-      <img src="https://skillicons.dev/icons?i=gmail" />                                                                                                                                                     
-    </a>                                                                                                                                                                                                     
-  </p>
-                                                                                                                                                                                                             
-  ---                                                             
+Fullstack developer who cares about **system design**: architecture and infrastructure aren't afterthoughts — they decide whether a product survives in production.
 
-  ## About me
+I build scalable, maintainable systems and I'm comfortable across stacks. My core is **Java + Spring Boot** on the backend and **Angular** on the frontend, with hands-on experience in **event-driven microservices**. I also work with the **TypeScript** ecosystem (NestJS, React) when a project calls for it.
 
-  Fullstack developer with a backend focus, building scalable APIs with **NestJS**, **PostgreSQL**, **Redis** and **Docker**.                                                                                
-  I have real-world experience developing an enterprise ERP at **Areea** (Granada) — leading the billing, taxes and payments module, designing architecture patterns adopted by the whole team.
-                                                                                                                                                                                                             
-  I care about **clean architecture**, real production deployments, and code that works under load — not just tutorials.                                                                                     
-                                                                                                                                                                                                             
-  ---                                                                                                                                                                                                        
-                                                                  
-  ## What I'm working on
+I care about **clean/hexagonal architecture**, real production deployments, and code that holds up under load — not just tutorials.
 
-  - **ERP Empresarial @ Areea** *(internship)* — Frontend with React + TanStack Query. Led the `pedidos` module: billing logic, taxes, payments and multi-section nested forms.
-  - **VeriTix** *(in progress)* — Full backend for musical event management, ticket sales and QR validation. NestJS + BullMQ + Redis + Docker, deployed on VPS.                                              
-                                                                                                                                                                                                             
-  ---
-                                                                                                                                                                                                             
-  ## Featured Projects                                            
+---
 
-  ### [QRCodes — QR Generator with Analytics](https://github.com/ErickJ10X/QRCodes)                                                                                                                          
-  > REST API with JWT auth, QR generation, scan analytics and Redis caching. Fully dockerized and deployed on Railway.
-                                                                                                                                                                                                             
-  `NestJS` · `PostgreSQL` · `Redis` · `Prisma` · `Docker` · `JWT` · `Bun`                                                                                                                                    
-                                                                                                                                                                                                             
-  ### [VeriTix — Event & Ticket Management](https://github.com/ErickJ10X/VeriTix)                                                                                                                            
-  > Backend for event management, ticket sales and QR validation. Async email queues with BullMQ + Resend. Deployed on VPS.
-                                                                                                                                                                                                             
-  `NestJS` · `PostgreSQL` · `Redis` · `BullMQ` · `Prisma` · `Docker` · `Resend` · `Bun`                                                                                                                      
-                                                                                                                                                                                                             
-  ---                                                                                                                                                                                                        
-                                                                  
-  ## Tech Stack                                                                                                                                                                                              
-                                                                  
-  **Backend**
+## What I'm working on
 
-  [![Backend](https://skillicons.dev/icons?i=nestjs,postgres,redis,docker,prisma,ts,bun)](https://skillicons.dev)                                                                                            
-   
-  **Frontend**                                                                                                                                                                                               
-                                                                  
-  [![Frontend](https://skillicons.dev/icons?i=react,ts,js,html,css)](https://skillicons.dev)                                                                                                                 
-   
-  **Tools**                                                                                                                                                                                                  
-                                                                  
-  [![Tools](https://skillicons.dev/icons?i=git,github,postman,vscode)](https://skillicons.dev)
+- **Intelligent Project Management SaaS** — A distributed, event-driven SaaS on **9 Java microservices** (Spring Boot 3.5 + Spring Cloud). Hexagonal architecture, Kafka choreography with Dead Letter Topics, Keycloak (OAuth2/OIDC), Spring AI, full observability (Prometheus, Grafana, Loki, Tempo) and CI/CD.
+- **Enterprise ERP @ Areea** — Led the `pedidos` module: billing, taxes, payments and multi-section nested forms. Designed an architecture pattern adopted by the whole team.
 
+---
+
+## Featured Projects
+
+### [Intelligent Project Management SaaS — Distributed Microservices Platform](https://github.com/ErickJoelQuispe/Intelligent-Project-Management-SaaS)
+> Event-driven SaaS built as a distributed system: 9 Java microservices, Kafka backbone with Outbox + DLT, Keycloak for OAuth2/OIDC, Spring AI for assistance, and full-stack observability. Hexagonal architecture validated with ArchUnit in CI.
+
+`Java 21` · `Spring Boot` · `Spring Cloud` · `Angular` · `Kafka` · `Keycloak` · `PostgreSQL` · `Redis` · `Docker`
+
+### [VeriTix — Event & Ticket Management](https://github.com/ErickJoelQuispe/VeriTix)
+> Full-stack platform for event management, ticket sales and QR validation at the door. SSR storefront, organizer backoffice, async email queues with BullMQ, and Redis-backed QR uniqueness under concurrency.
+
+`NestJS` · `Nuxt` · `Vue` · `PostgreSQL` · `Redis` · `BullMQ` · `Prisma` · `Docker` · `Bun`
+
+### [QRCodes — QR Generator with Analytics](https://github.com/ErickJoelQuispe/QRCodes)
+> REST API with JWT auth, QR generation, real-time scan analytics and Redis caching. Fully dockerized and deployed on Railway.
+
+`NestJS` · `PostgreSQL` · `Redis` · `Prisma` · `Docker` · `JWT` · `Bun`
+
+---
+
+## Tech Stack
+
+**Backend**
+
+[![Backend](https://skillicons.dev/icons?i=java,spring,nestjs,postgres,redis,kafka,docker,prisma,ts,bun)](https://skillicons.dev)
+
+**Frontend**
+
+[![Frontend](https://skillicons.dev/icons?i=angular,react,ts,js,html,css,tailwind)](https://skillicons.dev)
+
+**Tools**
+
+[![Tools](https://skillicons.dev/icons?i=git,github,postman,vscode,grafana,prometheus)](https://skillicons.dev)
