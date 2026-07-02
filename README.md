@@ -1,47 +1,68 @@
-Fullstack developer who cares about **system design**: architecture and infrastructure aren't afterthoughts — they decide whether a product survives in production.
+# Hola, soy Erick Joel Quispe Luna 👋
 
-I build scalable, maintainable systems and I'm comfortable across stacks. My core is **Java + Spring Boot** on the backend and **Angular** on the frontend, with hands-on experience in **event-driven microservices**. I also work with the **TypeScript** ecosystem (NestJS, React) when a project calls for it.
+### Desarrollador Backend · Java 21 y Spring Boot 3
 
-I care about **clean/hexagonal architecture**, real production deployments, and code that holds up under load — not just tutorials.
+Desarrollador backend especializado en **Java 21 y Spring Boot 3**, con foco en APIs REST, sistemas distribuidos y arquitecturas orientadas a eventos. Diseño pensando en el problema antes que en el código, documento las decisiones de arquitectura con sus tradeoffs y cuido lo que otros dejan para después.
 
----
+Mi experiencia en desarrollo frontend me da algo que muchos perfiles backend no tienen: entiendo el contrato de API desde ambos lados y diseño APIs que el cliente realmente puede consumir.
 
-## What I'm working on
-
-- **Intelligent Project Management SaaS** — A distributed, event-driven SaaS on **9 Java microservices** (Spring Boot 3.5 + Spring Cloud). Hexagonal architecture, Kafka choreography with Dead Letter Topics, Keycloak (OAuth2/OIDC), Spring AI, full observability (Prometheus, Grafana, Loki, Tempo) and CI/CD.
-- **Enterprise ERP @ Areea** — Led the `pedidos` module: billing, taxes, payments and multi-section nested forms. Designed an architecture pattern adopted by the whole team.
+📍 Granada, España · Disponible para trabajo remoto
 
 ---
 
-## Featured Projects
+## 🛠️ Stack Tecnológico
 
-### [Intelligent Project Management SaaS — Distributed Microservices Platform](https://github.com/ErickJoelQuispe/Intelligent-Project-Management-SaaS)
-> Event-driven SaaS built as a distributed system: 9 Java microservices, Kafka backbone with Outbox + DLT, Keycloak for OAuth2/OIDC, Spring AI for assistance, and full-stack observability. Hexagonal architecture validated with ArchUnit in CI.
+**Core Backend**
+Java 21 · Spring Boot 3 · Spring Cloud · Spring Security · Hibernate · JPA
 
-`Java 21` · `Spring Boot` · `Spring Cloud` · `Angular` · `Kafka` · `Keycloak` · `PostgreSQL` · `Redis` · `Docker`
+**Datos y Mensajería**
+PostgreSQL · Redis · Apache Kafka · Flyway · MySQL
 
-### [VeriTix — Event & Ticket Management](https://github.com/ErickJoelQuispe/VeriTix)
-> Full-stack platform for event management, ticket sales and QR validation at the door. SSR storefront, organizer backoffice, async email queues with BullMQ, and Redis-backed QR uniqueness under concurrency.
+**Arquitectura y Seguridad**
+Arquitectura Hexagonal · Event-Driven · Patrón Outbox · Keycloak · OAuth2 · OIDC · JWT · RBAC
 
-`NestJS` · `Nuxt` · `Vue` · `PostgreSQL` · `Redis` · `BullMQ` · `Prisma` · `Docker` · `Bun`
+**Infraestructura y CI/CD**
+Docker · Kubernetes · GitHub Actions · Prometheus · Grafana · Loki · Tempo · Railway
 
-### [QRCodes — QR Generator with Analytics](https://github.com/ErickJoelQuispe/QRCodes)
-> REST API with JWT auth, QR generation, real-time scan analytics and Redis caching. Fully dockerized and deployed on Railway.
+**Testing y Calidad**
+JUnit 5 · Testcontainers · ArchUnit · SonarCloud · Trivy
 
-`NestJS` · `PostgreSQL` · `Redis` · `Prisma` · `Docker` · `JWT` · `Bun`
+**Frontend complementario**
+Angular · React · TypeScript · RxJS · NgRx Signals
 
 ---
 
-## Tech Stack
+## 🚀 Proyectos Destacados
 
-**Backend**
+### [Intelligent Project Management SaaS](https://github.com/ErickJoelQuispe/Intelligent-Project-Management-SaaS)
+Plataforma SaaS distribuida con **9 microservicios Java** en Spring Boot 3.5 y Spring Cloud. Arquitectura hexagonal validada con ArchUnit, coreografía event-driven sobre Kafka con patrón Outbox, autenticación delegada a Keycloak y despliegue completo en Kubernetes con observabilidad end-to-end.
+`Java 21` `Spring Cloud` `Kafka` `Keycloak` `Kubernetes` `PostgreSQL`
 
-[![Backend](https://skillicons.dev/icons?i=java,spring,nestjs,postgres,redis,kafka,docker,prisma,ts,bun)](https://skillicons.dev)
+### [VeriTix](https://github.com/ErickJoelQuispe/VeriTix)
+Plataforma de eventos y venta de entradas end-to-end. Backend en NestJS con colas BullMQ y workers desacoplados, validación de entradas por QR con Redis para garantizar unicidad bajo concurrencia, y RBAC granular con cuatro roles.
+`NestJS` `PostgreSQL` `Prisma` `Redis` `BullMQ` `Nuxt 4`
 
-**Frontend**
+### [QRCodes](https://github.com/ErickJoelQuispe/QRCodes)
+API REST con autenticación JWT, gestión de usuarios, generación de QRs y analíticas de escaneos en tiempo real con caché distribuida. Entorno dockerizado y desplegado en Railway con tests automatizados en el pipeline de CI.
+`NestJS` `PostgreSQL` `Prisma` `Redis` `Docker`
 
-[![Frontend](https://skillicons.dev/icons?i=angular,react,ts,js,html,css,tailwind)](https://skillicons.dev)
+---
 
-**Tools**
+## 🎓 Formación
 
-[![Tools](https://skillicons.dev/icons?i=git,github,postman,vscode,grafana,prometheus)](https://skillicons.dev)
+- **Doble Titulación DAW y DAM** · Instituto Fomento Ocupacional, Granada · En curso
+- **Ingeniería en Sistemas Informáticos** · Universidad Tecnológica Nacional, Argentina · Estudios parciales
+
+---
+
+## 📫 Contacto
+
+[![Email](https://img.shields.io/badge/Email-erickjoelquispeluna@gmail.com-1a6fba?style=flat&logo=gmail&logoColor=white)](mailto:erickjoelquispeluna@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-erick--joel--quispe-1a6fba?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/erick-joel-quispe)
+
+---
+
+## 📊 Estadísticas
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ErickJoelQuispe&show_icons=true&hide_border=true&theme=default)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ErickJoelQuispe&layout=compact&hide_border=true&theme=default)
